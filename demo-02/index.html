@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo 01</title>
+    <title>Demo 02</title>
 </head>
     <body>
         <div></div>
 
         <script>
             var nodes = document.getElementsByTagName("*");
-            document.writeln("Cantidad total: " + nodes.length + " ");
-            for (var i=0; i<nodes.length; i++) {
-                document.writeln(nodes[i].tagName + " ");
+			var nodesLength = nodes.length;
+            document.write("Cantidad total: " + nodesLength + " ");
+            for (var i=0; i<nodesLength; i++) {
+                document.write(nodes[i].tagName + " ");
             }
         </script>
     </body>

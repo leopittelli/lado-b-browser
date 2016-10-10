@@ -1,5 +1,6 @@
 var nodes = document.getElementsByTagName("*");
-document.writeln("Cantidad total: " + nodes.length + " ");
-for (var i=0; i<nodes.length; i++) {
-    document.writeln(nodes[i].tagName + " ");
+var nodesLength = nodes.length;
+document.write("Cantidad total: " + nodesLength + " ");
+for (var i=0; i<nodesLength; i++) {
+	document.write(nodes[i].tagName + " ");
 }
